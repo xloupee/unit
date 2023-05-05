@@ -40,8 +40,8 @@ function massConvert(userNumber) {
     let kilos = userNumber * 2.20462
     let pounds = userNumber * 0.453592
     massP.textContent = `
-    ${userNumber} liters = ${kilos.toFixed(3)} pounds |
-    ${userNumber} gallons = ${pounds.toFixed(3)} liters
+    ${userNumber} kilos = ${kilos.toFixed(3)} pounds |
+    ${userNumber} pounds = ${pounds.toFixed(3)} kilos
     `
 }
 
